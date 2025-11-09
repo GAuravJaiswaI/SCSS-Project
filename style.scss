@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html, body{
+    height: 100%;
+   width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+     
+    section{
+        height: 100%;
+        flex-grow: 1;
+      background-size: cover;
+        background-position: center;
+         transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+         cursor: pointer;
+    }
+    section:hover{
+        flex-grow: 3;
+     
+    }
+
+
+    section:nth-child(1){
+        background-image: url("https://i.pinimg.com/736x/1a/63/c9/1a63c9165fbccac30885d592bc913d6c.jpg");
+    }
+    section:nth-child(2){
+        background-image: url("https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/3f7519f1-5ab3-4ebc-413b-8924da7eb800/public");
+    }
+    section:nth-child(3){
+        background-image: url("https://i.pinimg.com/736x/ef/29/eb/ef29ebf94a909d0756fdd590e2f61574.jpg");
+    }
+    section:nth-child(4){
+        background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download-94806/thor-love-and-thunder-2021-4k_640.jpg");
+    }
+    section:nth-child(5){
+        background-image: url("https://w0.peakpx.com/wallpaper/773/882/HD-wallpaper-captain-america-hydra-agent.jpg");
+    }
+
+}
